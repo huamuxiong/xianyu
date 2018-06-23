@@ -1,0 +1,144 @@
+@charset "utf-8";
+
+
+html{
+	min-width:1200px;
+}
+
+/*===header===*/
+
+#header{
+	width:100%;
+	height:570px;
+	background:#1d2124 url("../img/contact/banner.png") no-repeat center 92px;
+}
+#h-main{
+	width:1200px;
+	height:100%;
+	margin:0 auto;
+}
+#h-main .h-m-top{
+	width:100%;
+	height:92px;
+}
+#h-main .h-m-contact{
+	width:300px;
+	height:148px;
+	margin:0 auto;
+	padding-top:180px;
+	text-align:center;
+	color:#fff;
+}
+#h-main .h-m-contact h2{
+	font-size:50px;
+	font-weight:normal;
+	letter-spacing:5px;
+}
+#h-main .h-m-contact p{
+	margin-top:30px;
+	font-size:26px;
+	font-family:'Roboto Regular','微软雅黑';
+}
+
+
+
+/*=== contact ===*/
+
+#contact{
+	width:100%;
+	height:805px;
+	background:#fff url("../img/contact/map.png") no-repeat center 504px;
+}
+#c-main{
+	width:1200px;
+	height:100%;
+	margin:0 auto;
+}
+#c-main .c-m-content{
+	width:100%;
+	height:630px;
+	padding-top:115px;
+	
+}
+#c-main .c-m-content .c-m-c-left{
+	float:left;
+	width:500px;
+	height:100%;
+	font-size:18px;
+}
+#c-main .c-m-content .c-m-c-left ul{
+	width:100%;
+	height:100%;
+}
+#c-main .c-m-content .c-m-c-left ul li{
+	width:100%;
+	height:62px;
+	margin-bottom:26px;
+}
+#c-main .c-m-content .c-m-c-left .iconfont{
+	display:block;
+	float:left;
+	width:30px;
+	height:30px;
+	font-size:30px;
+}
+#c-main .c-m-content .c-m-c-left p{
+	float:left;
+	margin-top:4px;
+	margin-left:18px;
+}
+#c-main .c-m-content .c-m-c-left p span{
+	display:block;
+}
+#c-main .c-m-content .c-m-c-left p span.first{
+	margin-bottom:10px;
+}
+#c-main .c-m-content .c-m-c-right{
+	overflow:hidden;
+	float:right;
+	width:600px;
+	height:100%;
+}
+#c-main .c-m-content .c-m-c-right ul{
+	width:100%;
+}
+#c-main .c-m-content .c-m-c-right ul li{
+	width:100%;
+	height:70px;
+	margin-bottom:15px;
+}
+#c-main .c-m-content .c-m-c-right p{
+	margin-bottom:10px;
+	color:#666;
+	font-size:16px;
+}
+#c-main .c-m-content .c-m-c-right input{
+	width:598px;
+	height:34px;
+	border:1px solid #bfbfbf;
+	font-size:18px;
+	text-indent:10px;
+	border-radius:5px;
+}
+#c-main .c-m-content .c-m-c-right input:focus{
+	outline:none;
+    border-color: #069;  
+}
+#c-main .c-m-content .c-m-c-right a{
+	display:block;
+	width:198px;
+	height:42px;
+	background-color:#e3e3e3;
+	margin-top:44px;
+	text-align:center;
+	color:#000;
+	font-size:16px;
+	line-height:42px;
+	letter-spacing:2px;
+	border-radius:5px;
+	transition:.2s;
+}
+#c-main .c-m-content .c-m-c-right a:hover{
+	background-color:#096;
+	color:#fff;
+}
