@@ -20,7 +20,7 @@ html{
 	height:38px;
 }
 #nav .n-main ul{
-	width:820;   /* 防止缩放浏览器掉下去 */
+	width:820px;   /* 防止缩放浏览器掉下去 */
 }
 #nav .n-main ul li{
 	float:left;
