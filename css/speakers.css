@@ -71,9 +71,14 @@ html{
 	margin-bottom:40px;
 }
 #sp-main .sp-m-content .sp-m-content-img{
+	overflow:hidden;
 	float:left;
 	width:207px;
 	height:100%;
+}
+#sp-main .sp-m-content .sp-m-content-img img{
+	width:207px;
+	height:264px;
 }
 #sp-main .sp-m-content .sp-m-content-txt{
 	float:left;
